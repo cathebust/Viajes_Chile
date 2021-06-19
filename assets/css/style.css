@@ -1,0 +1,11 @@
+/*letra general del body*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*color de fondo en diferentes sections*/
+
+.bg-fondo {
+ background-color: rgb(32, 166, 178);
+}
