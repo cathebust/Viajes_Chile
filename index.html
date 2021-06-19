@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,128 +19,131 @@
     <!--mi css-->
     <link rel="stylesheet" href="assets/css/style.css">
     <!--jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
-<body>
-    
-<!--barra de navegacion de boostrap con logo y links-->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top fw-bold">
-    <div class="container">
-        <a class="navbar-brand" href="#"><img height="25" src="assets/img/viajes.svg" alt="logo">Viajes Chile</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto fw-bold">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#QuienesSomos">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#Destacados">Destacados</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#Contacto">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<body class="bg-dark">
 
-<!--carrusel de boostrap , tooltip en los dos button-->
+    <!--barra de navegacion de boostrap con logo y links-->
 
-<section id="inicio">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top fw-bold">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img height="25" src="assets/img/viajes.svg" alt="logo">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#QuienesSomos">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true" data-bs-toggle="tooltip" data-bs-placement="top"
-                title="Destino de viaje anterior"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true" data-bs-toggle="tooltip" data-bs-placement="top"
-                title="Destino de viaje siguiente"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</section>
+    </nav>
 
-<!--seccion de presentacion usando grid de boostrap , favicon y 3 parrafos, desaparece en sm-->
+    <!--carrusel de boostrap , tooltip en los dos button-->
 
-<section id="QuienesSomos" class="text-white container d-none d-md-block d-lg-block">
-    <h1 class="text-center mt-5  fw-bold">¿Quiénes somos?</h1>
-    <hr class="lineas mt-4 bg-fondo">
-    </hr>
-
-    <div class="container">
-        <div class="row gx-5">
-
-            <div class="col-4">
-                <div class="text-center bg-fondo">
-                    <i class="fas fa-plane fa-2x"></i>
+    <section id="inicio">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
                 </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta id sequi perspiciatis ipsam,
-                    dolorem corrupti illum, cupiditate sunt blanditiis corporis esse exercitationem. Nobis,
-                    exercitationem. Ipsam nisi illum blanditiis debitis voluptatibus. Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Unde esse sed qui vel totam, nemo asperiores numquam maxime eaque
-                    quaerat magni eius est. Commodi, ad eveniet! Pariatur excepturi recusandae assumenda. Lorem
-                    ipsum dolor sit amet consectetur adipisicing elit. Quis expedita excepturi eum accusamus.
-                    Repellat laudantium incidunt reprehenderit necessitatibus quasi rem voluptatem, molestias minus
-                    provident explicabo quae maiores ab suscipit nemo!</p>
-            </div>
-
-            <div class="col-4">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati odio qui quo aliquam
-                    consequuntur, ad quisquam sed minus, beatae facilis nesciunt quia alias quos enim cum eius,
-                    corrupti dignissimos tenetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-                    recusandae fugiat ullam laboriosam, nam, esse repudiandae nisi tempore quia at dignissimos,
-                    perferendis rerum obcaecati. Cum numquam voluptates tempore magnam minima? Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit. Expedita, nulla neque dolorem similique laudantium
-                    voluptates, quo odit deleniti nihil porro facilis voluptate est facere voluptatem sint ratione
-                    veritatis mollitia minima.</p>
-                <div class="text-center bg-fondo">
-                    <i class="fas fa-mountain fa-2x"></i>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
                 </div>
             </div>
-            <div class="col-4">
-                <div class="text-center bg-fondo">
-                    <i class="fas fa-route fa-2x"></i>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Destino de viaje anterior"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" data-bs-toggle="tooltip"
+                    data-bs-placement="top" title="Destino de viaje siguiente"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!--seccion de presentacion usando grid de boostrap , favicon y 3 parrafos, desaparece en sm-->
+
+    <section id="QuienesSomos" class="text-white container d-none d-md-block d-lg-block">
+        <h1 class="text-center mt-5  fw-bold">¿Quiénes somos?</h1>
+        <hr class="lineas mt-4 bg-fondo">
+        </hr>
+
+        <div class="container">
+            <div class="row gx-5">
+
+                <div class="col-4">
+                    <div class="text-center bg-fondo">
+                        <i class="fas fa-plane fa-2x"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta id sequi perspiciatis ipsam,
+                        dolorem corrupti illum, cupiditate sunt blanditiis corporis esse exercitationem. Nobis,
+                        exercitationem. Ipsam nisi illum blanditiis debitis voluptatibus. Lorem ipsum, dolor sit amet
+                        consectetur adipisicing elit. Unde esse sed qui vel totam, nemo asperiores numquam maxime eaque
+                        quaerat magni eius est. Commodi, ad eveniet! Pariatur excepturi recusandae assumenda. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Quis expedita excepturi eum accusamus.
+                        Repellat laudantium incidunt reprehenderit necessitatibus quasi rem voluptatem, molestias minus
+                        provident explicabo quae maiores ab suscipit nemo!</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur eligendi hic
-                    eveniet voluptas facere ipsam molestiae consequatur delectus temporibus incidunt deserunt vel
-                    recusandae veritatis sit, quo accusamus dicta modi? Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Iure quasi voluptates nobis dolore sunt fuga ab placeat iusto exercitationem
-                    blanditiis voluptate totam dolor maxime, nihil a nesciunt est possimus adipisci. Lorem ipsum
-                    dolor, sit amet consectetur adipisicing elit. Atque voluptatibus tempora, modi repellendus velit
-                    hic nam vel dignissimos, consequatur libero provident. Illo esse nesciunt quibusdam sapiente
-                    iusto voluptatibus dolores numquam!</p>
+
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati odio qui quo aliquam
+                        consequuntur, ad quisquam sed minus, beatae facilis nesciunt quia alias quos enim cum eius,
+                        corrupti dignissimos tenetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+                        recusandae fugiat ullam laboriosam, nam, esse repudiandae nisi tempore quia at dignissimos,
+                        perferendis rerum obcaecati. Cum numquam voluptates tempore magnam minima? Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Expedita, nulla neque dolorem similique laudantium
+                        voluptates, quo odit deleniti nihil porro facilis voluptate est facere voluptatem sint ratione
+                        veritatis mollitia minima.</p>
+                    <div class="text-center bg-fondo">
+                        <i class="fas fa-mountain fa-2x"></i>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="text-center bg-fondo">
+                        <i class="fas fa-route fa-2x"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur eligendi hic
+                        eveniet voluptas facere ipsam molestiae consequatur delectus temporibus incidunt deserunt vel
+                        recusandae veritatis sit, quo accusamus dicta modi? Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Iure quasi voluptates nobis dolore sunt fuga ab placeat iusto exercitationem
+                        blanditiis voluptate totam dolor maxime, nihil a nesciunt est possimus adipisci. Lorem ipsum
+                        dolor, sit amet consectetur adipisicing elit. Atque voluptatibus tempora, modi repellendus velit
+                        hic nam vel dignissimos, consequatur libero provident. Illo esse nesciunt quibusdam sapiente
+                        iusto voluptatibus dolores numquam!</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!--card (4) de boostrap y sus iconos-->
-    
+
     <section id="Destacados" class="container my-5">
         <h1 class="text-center mt-5 text-white  fw-bold">Destacados</h1>
         <hr class="lineas mt-4 bg-fondo">
         </hr>
-    
+
         <div class="row g-4 container mx-auto mt-2 mb-5 justify-content-center text-white">
             <div class="col-md-3">
                 <div class="card h-100 bg-fondo">
@@ -189,21 +193,21 @@
     </section>
 
     <!--contacto y formulario de typeform funcional-->
-    
+
     <section id="Contacto" class="container mt-5">
         <h1 class="text-center mt-5 text-white fw-bold">Contacto</h1>
         <hr class="lineas mt-4 bg-fondo">
         </hr>
-    
+
         <div class="typeform-widget mx-auto mb-5"
             data-url="https://form.typeform.com/to/wqpFTvGr?typeform-medium=embed-snippet"
             style="width: 90%; height: 500px;"></div>
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
-    
+
     </section>
-    
+
     <!--footer y links de redes sociales-->
-    
+
     <footer class="text-white container-fluid bg-fondo">
         <div class="row">
             <div class="col-6 text-center align-items-center">
@@ -217,14 +221,15 @@
             </div>
         </div>
 
-</footer>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-    
+
     <!--mi script-->
     <script src="assets/js/script.js"> </script>
 </body>
+
 </html>
